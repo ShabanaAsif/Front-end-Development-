@@ -1,0 +1,112 @@
+
+* {
+    background-color: #ffffff;
+  }
+  a {
+    color: #000000;
+  }
+  a:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  #navbar {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000000;
+    height: 100%;
+    top: -5px;
+    left: -5px;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+  }
+  @media (min-width: 480px) {
+    #navbar {
+      position: fixed;
+    }
+  }
+
+  main {
+    margin-left: 220px;
+    color: #000000;
+  }
+  header {
+    font-size: 20pt;
+  }
+  code {
+    background-color: #0f0f0f;
+    border-style:groove;
+    border-width: 2px;
+    border-color: #fefefced;
+    padding: 5px;
+    color: white;
+  }
+  
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #da29a2c9;
+  color: white;
+}
+.fa-gmail {
+  background: #d11c1c;
+  color: #ffffff;
+}
+div{
+  text-align: right;
+  color: #0d0d0d;
+}
+section1{
+    text-align: center;
+    color: #0d0d0d;
+  }
+  img{
+     border: 5px solid #555;
+  }
+
+  footer {
+    text-align: right;
+  }

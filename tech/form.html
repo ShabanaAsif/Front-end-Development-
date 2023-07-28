@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport"></meta>
+        <meta name="description" content="Re Form"></meta>
+        <link rel="stylesheet" href="style.css" />
+        </head>
+
+        <body style="background-color: rgb(214, 227, 181);" >
+            <header>
+              <h1 style="align-items: center;">Registration Form</h1>
+            </header>
+
+        <form>
+            <label>First Name</label>
+            <input type="text" name="user-name">
+          
+            <br />
+            <label>Last Name</label>
+            <input type="text" name="user-lastname">
+            <br />
+            <label>Profile Picture</label>
+            <input type="file" id="profile-picture" name="file">
+            
+            <br />
+            <label>D.O.B</label>
+            <input type="date" name="date">
+            <br />
+            
+            <label>Age</label>
+            <input type="number" name="number">
+            <br />
+
+            <label>Email</label>
+            <input type="email" name="email">
+            <br />
+            
+            <label>Password</label>
+            <input type="password" name="password">
+            <br />
+
+            <label>Phone Number</label>
+            <input type="tel" name="telephone" >
+            <br />
+
+            <label>Emergency Contact</label>
+            <input type="tel" name="telephone">
+            <br />
+
+            <label>Address</label>
+            <input type="Location" name="Address">
+            <br />
+
+            <label>Please Select Country</label>
+                <select>
+                    <option></option>
+                    <option>Pakistan</option>
+                    <option>Bangladesh</option>
+                    <option>China</option>
+                    <option>Dubai</option>
+                    <option>England</option>
+                    <option>France</option>
+                    <option>India</option>
+                    <option>Unites States</option>
+                    <option>United Kingdom</option>
+                    <option>Saudia Arab</option>
+                    <option>turkey</option>
+                    <option>UAE</option>
+                </select>
+                <br />
+
+            <label>City</label>
+                <select>
+                    <option></option>
+                    <option>Lahore</option>
+                    <option>Islamabad</option>
+                    <option>Peshawar</option>
+                    <option>Faisalabad</option>
+                    <option>Karachi</option>
+                    <option>Faizabad</option>
+                    <option>Rawalpindi</option>
+                </select>
+            <br />
+                
+            <label>Plese Enter Postal Code Of Your City</label>
+            <input type="number" name="postalcode" >
+            <br />
+           <!--  <label for="male"><input id="male" type="radio" name="account-type" class="inline" /> Male</label>
+            <label for="female"><input id="female" type="radio" name="account-type" class="inline" /> Female</label> -->
+            
+            <label>Select Your Gender</label>
+            <label for="male"><input id="male" type="radio" name="Account" class="inline">
+            Male</label>
+
+            <label for="female"><input id="female" type="radio" name="Account" class="inline">
+            Female</label>
+    <br /> 
+            
+            <label>What type of Account?</label>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" />Personal Account</label>
+            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />Business-account</label>
+            <label for="terms-and-conditions" name="terms-and-conditions"></label>
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline">I accept the terms and conditions<a>.</a>
+            
+            <br /><br />
+            <button style="width: fit-content; background-color: black; color:white; width:33pc; height: 40px;">Submit</button>
+            
+            
+
+        </form>
+</body>
+</html>
